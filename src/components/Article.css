@@ -1,0 +1,40 @@
+
+
+.Article {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .Article h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .Article p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .Article a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    align-self: flex-start;
+    margin-top: auto;
+  }
+  
+  .Article a:hover {
+    text-decoration: underline;
+  }
+  

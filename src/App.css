@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+select {
+  padding: 10px;
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+.ArticleList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.Pagination button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.Pagination button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.Pagination span {
+  font-size: 16px;
+}
